@@ -3,6 +3,13 @@
 [Условия домашних заданий](http://www.kgeorgiy.info/courses/prog-intro/homeworks.html)
 ## Домашнее задание 1. Сумма чисел
 
+ * *BigIntegerDigit*
+    * Входные данные помещаются в тип [BigInteger](https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html)
+    * Класс должен иметь имя `SumBigInteger`
+    * Числа имеют вид `[знак]цифры`
+    * [Исходный код тестов](java/sum/SumBigIntegerDigitTest.java)
+    * [Откомпилированные тесты](artifacts/sum/SumBigIntegerDigitTest.jar)
+
 
 1. Разработайте класс `Sum`, который при запуске из командной строки будет складывать переданные в качестве аргументов целые числа и выводить их сумму на консоль.
 2. Примеры запуска программы:
