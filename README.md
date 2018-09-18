@@ -30,7 +30,7 @@
 	java Sum "1 2" " 3"
 		Результат: 6
 	```
-	Аргументы могут содержать цифры и произвольные [пробельные символы](http://docs.oracle.com/javase/8/docs/api/java/lang/Character.html#isWhitespace(char)).
+	Аргументы могут содержать цифры и произвольные [пробельные символы](https://docs.oracle.com/javase/8/docs/api/java/lang/Character.html#isWhitespace-char-).
 3. При выполнении задания можно считать что для представления входных данных и промежуточных результатов достаточен тип `int`.
 4. При выполнении задания полезно ознакомиться с документацией к классам [String](http://download.oracle.com/javase/8/docs/api/java/lang/String.html) и [Integer](http://download.oracle.com/javase/8/docs/api/java/lang/Integer.html).
 
