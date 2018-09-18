@@ -3,6 +3,12 @@
 [Условия домашних заданий](http://www.kgeorgiy.info/courses/prog-intro/homeworks.html)
 ## Домашнее задание 1. Сумма чисел
 
+ * *SumHex*
+    * Входные данные помещаются в тип 'int' либо десятичные, либо шестнадцатиричное начинается с '0x'
+    * Класс должен иметь имя `SumHex`
+    * [Исходный код тестов](java/sum/SumHexTest.java)
+    * [Откомпилированные тесты](artifacts/sum/SumHexTest.jar)
+
  * *BigIntegerDigit*
     * Входные данные помещаются в тип [BigInteger](https://docs.oracle.com/javase/8/docs/api/java/math/BigInteger.html)
     * Класс должен иметь имя `SumBigInteger`
