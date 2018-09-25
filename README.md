@@ -8,6 +8,12 @@
     * Класс должен иметь имя `ReverseTranspose`
     * [Исходный код тестов](java/reverse/ReverseTransposeTest.java)
     * [Откомпилированные тесты](artifacts/reverse/ReverseTransposeTest.jar)
+ * *Максимум*
+    * Рассмотрим входные данные как (не полностью определенную) матрицу,
+      вместо каждого числа выведите максимум из чисел в его столбце и строке.
+    * Класс должен иметь имя `ReverseMax`
+    * [Исходный код тестов](java/reverse/ReverseMaxTest.java)
+    * [Откомпилированные тесты](artifacts/reverse/ReverseMaxTest.jar)
 
 
 
