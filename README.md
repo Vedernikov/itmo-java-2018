@@ -24,6 +24,15 @@
     * Класс должен иметь имя `BinarySearchMissing`
     * [Исходный код тестов](java/search/BinarySearchMissingTest.java)
     * [Откомпилированные тесты](artifacts/search/BinarySearchMissingTest.jar)
+ * *Сложная*
+    * Требуется вывести два числа: начало и длину диапазона элементов,
+      равных `x`. Если таких элементов нет, то следует вывести
+      пустой диапазон, у которого левая граница совпадает с местом
+      вставки элемента `x`.
+    * Не допускается использование типов `long` и `BigInteger`.
+    * Класс должен иметь имя `BinarySearchSpan`
+    * [Исходный код тестов](java/search/BinarySearchSpanTest.java)
+    * [Откомпилированные тесты](artifacts/search/BinarySearchSpanTest.jar)
 
 Домашнее задание 6. Подсчет слов++
 ----
