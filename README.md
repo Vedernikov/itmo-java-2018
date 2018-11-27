@@ -22,6 +22,12 @@
  * *Базовая*
     * Реализовать интерфейс [Expression](java/expression/Expression.java)
     * [Исходный код тестов](java/expression/ExpressionTest.java)
+ * *Простая*
+    * Реализовать интерфейс [DoubleExpression](java/expression/DoubleExpression.java)
+    * [Исходный код тестов](java/expression/DoubleExpressionTest.java)
+ * *Сложная*
+    * Реализовать интерфейсы [DoubleExpression](java/expression/DoubleExpression.java) и [TripleExpression](java/expression/TripleExpression.java)
+    * [Исходный код тестов](java/expression/TripleExpressionTest.java)
 
 
 Домашнее задание 9. Очередь на связном списке
@@ -34,6 +40,27 @@
  * *Базовая*
     * [Исходный код тестов](java/queue/QueueTest.java)
     * [Откомпилированные тесты](artifacts/queue/QueueTest.jar)
+ * *Простая*
+    * Добавить в интерфейс очереди и реализовать метод
+      `toArray`, возвращающий массив,
+      содержащий элементы, лежащие в очереди в порядке
+      от головы к хвосту
+    * Исходная очередь должна оставаться неизменной
+    * Дублирования кода быть не должно
+    * [Исходный код тестов](java/queue/QueueToArrayTest.java)
+    * [Откомпилированные тесты](artifacts/queue/QueueToArrayTest.jar)
+ * *Сложная*
+    * Добавить в интерфейс очереди и реализовать методы
+        * `filter(predicate)` – создать очередь, содержащую элементы, удовлетворяющие
+            [предикату](https://docs.oracle.com/javase/8/docs/api/java/util/function/Predicate.html)
+        * `map(function)` – создать очередь, содержащую результаты применения
+            [функции](https://docs.oracle.com/javase/8/docs/api/java/util/function/Function.html)
+    * Исходная очередь должна остаться неизменной
+    * Тип возвращаемой очереди должен соответствовать типу исходной очереди
+    * Взаимный порядок элементов должен сохраняться
+    * Дублирования кода быть не должно
+    * [Исходный код тестов](java/queue/QueueFunctions.java)
+    * [Откомпилированные тесты](artifacts/queue/QueueFunctionsTest.jar)
 
 Домашнее задание 8. Очередь на массиве
 ----
