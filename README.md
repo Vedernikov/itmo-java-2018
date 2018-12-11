@@ -37,6 +37,11 @@
     * [Исходный код тестов](java/expression/exceptions/ExceptionsTest.java)
  * *Простая*
     * Дополнительно реализовать унарные операции:
+        * `log2` — логарифм по уснованию 2, `log2 10` равно 3;
+        * `pow2` — два в степени, `pow2 4` равно 16.
+    * [Исходный код тестов](java/expression/exceptions/ExceptionsPowLog2Test.java)
+ * *Простая*
+    * Дополнительно реализовать унарные операции:
         * `abs` — модуль числа, `abs -5` равно 5;
         * `sqrt` — квадратный корень, `sqrt 24` равно 4.
     * [Исходный код тестов](java/expression/exceptions/ExceptionsAbsSqrtTest.java)
